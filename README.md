@@ -1,6 +1,6 @@
 ## Setup
 
-**Pre-requisites:**
+**Prerequisites:**
 
 1. Make sure you have MetaMask installed as Chrome extension. [Link here](https://metamask.io/download/)
 
