@@ -1,5 +1,6 @@
 import { BrowserProvider } from "ethers";
 import { SiweMessage } from "siwe";
+import { BACKEND_URL } from "./variables";
 
 const domain = window.location.host;
 const origin = window.location.origin;
@@ -13,8 +14,6 @@ try {
     "Not having `window.ethereum` is already handled in `<MetaMask />`",
   );
 }
-
-const BACKEND_URL = "http://localhost:3000";
 
 let address: string | null = null;
 
