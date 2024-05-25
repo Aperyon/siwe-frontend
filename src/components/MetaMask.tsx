@@ -1,4 +1,5 @@
 export default function MetaMask() {
+  // @ts-ignore
   if (window.ethereum) return null;
 
   return (
